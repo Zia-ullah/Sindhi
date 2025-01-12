@@ -1,0 +1,31 @@
+h1{color:khaki; display:inline;}
+
+div{padding: 0px;margin: 0px;}
+
+h4{display:inline; 
+font-family:calibri;}
+
+#td{
+height:10%;
+text-align:center;}
+
+#ld{
+float:left;
+width:10%;
+height:450%;
+}
+
+#md{
+float:left;
+width:80%;
+height:450px;
+text-align:center;}
+
+#rd{
+float: left;
+width:10%;
+height:450px;}
+
+bd{
+float:none;
+height:150px;}

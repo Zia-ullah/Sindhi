@@ -1,0 +1,21 @@
+body{}
+
+div#topdiv{background-image:url("/images/Ajrak1.jpg"); text-align:center;color:Yellow; padding:none;padding:none;spacing:0;}
+span#tldiv{width:50px;float:left;}
+
+div#ldiv{height:500px;width:12%;float:left;dir:rtl; overflow-y:scroll;}
+div#mdiv{height;500px;width:75%;float:left;dir:rtl;overflow-y:scroll;}
+div#rdiv{height:500px;width:12%;float:left;background-color:gray;}
+div#bdiv{width:100%;position:left;}
+h2#mhead{text-align:center;}
+ol#a1{text-align:left;}
+li#l1{text-align:left;}
+p#p1{border-style:dotted;}
+
+a:link 		{color: green; text-decoration:none;}
+a:visited 	{color: yellow; background-color: transparent; text-decoration: none;}
+a:hover 	{color: red; background-color: transparent; text-decoration: underline;}
+a:active 	{color: Khaki; background-color: transparent; text-decoration: underline;}
+
+p#p2{border-style:double;}
+
