@@ -1,1 +1,0 @@
-document.write("From External JavaScript File");
