@@ -91,8 +91,8 @@ span#ldc {
   margin: 15;
 }
 
-h2#mhead {
-  display: inline-block;
+.mhead {
+  /*display: inline-block;*/
   text-align: center;
   padding: 0;
   margin: 0;
@@ -110,11 +110,6 @@ rdiv::after {
   content: "";
   display: table;
   clear: both;
-}
-
-footer {
-  text-align: center;
-  color: darkgreen;
 }
 
 img#h3 {
@@ -163,4 +158,9 @@ p#p1 {
 
 p#p2 {
   border-style: double;
+}
+
+footer {
+  text-align: center;
+  color: darkgreen;
 }
