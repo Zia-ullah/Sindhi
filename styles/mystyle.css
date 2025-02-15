@@ -145,6 +145,7 @@ li#l1 {
 
 a:hover {
   background-color: darkgreen;
+  border-radius: 10%;
 }
 
 a#blink {
