@@ -23,9 +23,11 @@ header {
   margin: 2;
   background-image: url("../images/Ajrak1.jpg");
   background-size: contain;
-
   text-align: center;
   color: white;
+  position: static;
+
+
 }
 
 img#stil {
