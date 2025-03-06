@@ -1,20 +1,11 @@
-body,
-div {
-  padding: 2;
-  margin: 2;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  padding: 3;
-  margin: 3;
-}
-
-img {
-  max-width: 100%;
-}
-
-ul,
-li {
+html,
+body {
+  height: 100%;
   width: 100%;
 }
 
@@ -26,8 +17,109 @@ header {
   text-align: center;
   color: white;
   position: static;
+  height: 6%;
+  width: 100%;
+}
 
+header:hover {
+  font-size: 50px;
 
+  #hh1 {
+    color: red;
+  }
+
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+main {
+  height: 88%;
+  width: 100%;
+}
+
+.ldiv {
+  height: 100%;
+  width: 12%;
+  padding-left: 2px;
+  /* direction: rtl; */
+  float: left;
+  text-align: center;
+}
+
+.mhead {
+  display: inline-block;
+}
+
+#ldt {
+  height: 60%;
+  display: block;
+  background-image: url("../images/sr4.jpg");
+  background-size: cover;
+}
+
+ul#a1 {
+  list-style-type: none;
+  padding: 1;
+  margin: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ldc {
+  height: 28%;
+  display: block;
+  background-image: url("../images/sr1.jpg");
+  background-size: cover;
+}
+
+.mdiv {
+  padding: 2px;
+  float: left;
+  height: 100%;
+  width: 71%;
+}
+
+.mdh2 {
+  display: block;
+}
+
+.rdiv {
+  height: 100%;
+  display: block;
+  width: 15%;
+  padding-left: 2px;
+  float: left;
+  text-align: center;
+}
+
+#rdt {
+  height: 100%;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  color: red;
+  height: 2%;
+  width: 100%;
+}
+
+p {
+  padding: 3;
+  margin: 3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+li {
+  width: 100%;
+  font-weight: bolder;
 }
 
 img#stil {
@@ -35,7 +127,6 @@ img#stil {
   height: 37px;
   float: left;
   border-radius: 50%;
-  background-blend-mode: color-burn;
 }
 
 a {
@@ -53,65 +144,11 @@ img#stir {
   border-radius: 50%;
 }
 
-.ldiv {
-  height: 590px;
-  width: 12%;
-  dir: rtl;
-  float: left;
-  text-align: left;
-}
-
 span {
   padding: 0;
   margin: 0;
   width: 100%;
   overflow-y: auto;
-}
-
-span#ldt {
-  height: 320px;
-  display: block;
-  background-image: url("../images/sr4.jpg");
-  background-size: cover;
-  background-size: 100% 100%;
-}
-
-span#ldc {
-  height: 170px;
-  display: block;
-  background-image: url("../images/sr1.jpg");
-  background-size: 100% 100%;
-}
-
-.mdiv {
-  height: 590px;
-  width: 70%;
-  dir: rtl;
-  float: left;
-  overflow-y: auto;
-  padding: 15;
-  margin: 15;
-}
-
-.mhead {
-  /*display: inline-block;*/
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-.rdiv {
-  height: 590px;
-  width: 18%;
-  dir: rtl;
-  float: left;
-  overflow-y: auto;
-}
-
-rdiv::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 img#h3 {
@@ -126,14 +163,7 @@ h3.rdl {
   color: tomato;
 }
 
-ul#a1 {
-  list-style-type: none;
-  padding: 1;
-  margin: 1;
-  width: 100%;
-}
-
-li#l1 {
+li {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -143,13 +173,47 @@ li#l1 {
 a:hover {
   background-color: darkgreen;
   border-radius: 10%;
+  width: 40%;
+  text-align: center;
+  font-size: 24px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transform: translate(-35px);
+
 }
 
-a#blink {
+a#fr1 {
   background-color: purple;
   color: white;
   padding: 8px;
-  spacing: 8px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a#sr2 {
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a#tr3 {
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a#fr4 {
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  margin: 8px;
   display: inline-block;
   text-decoration: none;
 }
@@ -162,7 +226,42 @@ p#p2 {
   border-style: double;
 }
 
-footer {
-  text-align: center;
-  color: darkgreen;
+@media (max-width: 400px) {
+  a#fr1 {
+    background-color: red;
+  }
+
+  h2 {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 401px) and (max-width:500px) {
+  a#sr2 {
+    background-color: green
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 501px) and (max-width:600px) {
+  a#tr3 {
+    background-color: yellow;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 601px) and (max-width:700px) {
+  a#fr4 {
+    background-color: orangered;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
 }
