@@ -10,8 +10,8 @@ body {
 }
 
 header {
-  padding: 2;
-  margin: 2;
+  padding: 2px;
+  margin: 2px;
   background-image: url("../images/Ajrak1.jpg");
   background-size: contain;
   text-align: center;
@@ -75,10 +75,10 @@ ul#a1 {
 }
 
 .mdiv {
-  padding: 2px;
+  padding: 1px;
   float: left;
   height: 100%;
-  width: 71%;
+  width: 72%;
 }
 
 .mdh2 {
@@ -100,9 +100,10 @@ ul#a1 {
 }
 
 footer {
+  position: static;
   text-align: center;
   color: red;
-  height: 2%;
+  height: 10%;
   width: 100%;
 }
 
