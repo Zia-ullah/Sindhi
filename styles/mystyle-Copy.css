@@ -47,46 +47,32 @@ header {
   height: 6%;
   width: 100%;
 }
-/*
+
 header:hover {
   font-size: 50px;
 
   #hh1 {
-    color: red;}
+    color: red;
+  }
 
   transition-duration: 2s;
   transition-timing-function: linear;
 }
-*/
 
-#hh1{
-transition: font-size 0.8s ease;}
-
-#hh1:hover{
-font-size:60px;
-color: red;}
-
-img#slogo {
+img#stil {
+  font-size:50px;
   width: 50px;
   height: 53px;
   float: left;
   border-radius: 50%;
-  transition: transform 0.8s ease;
-  transform-origin:top left;
 }
 
-/*
-img#slogo:hover {
-  width: 350px;
-  height: 350px;
+img#stil:hover {
+  width: 250px;
+  height: 250px;
 
   transition-duration: 2s;
   transition-timing-function: linear;
-}
-*/
-
-img#slogo:hover {
-  transform: scale(8); /* grows visually, not physically */
 }
 
 img#stir {
@@ -193,9 +179,9 @@ li {
   list-style-type: none;
   width: 100%;
 }
-/*
+
 a:hover {
-  background-color: blue;
+  background-color: darkgreen;
   border-radius: 10%;
   width: 40%;
   text-align: center;
@@ -203,10 +189,6 @@ a:hover {
   transition-duration: 2s;
   transition-timing-function: linear;
   transform: translate(-35px);
-}*/
-
-a#sc{
-  hoover:
 }
 
 a#fr1 {
