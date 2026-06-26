@@ -10,7 +10,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
@@ -29,7 +29,9 @@ li {
 a {
   color: white;
   font-family: Arial;
-  padding: 8px;
+  font-size: 30px;
+  padding: 3px;
+  margin: 3px;
   display: inline-block;
   text-decoration: none;
 }
@@ -45,28 +47,51 @@ header {
   height: 6%;
   width: 100%;
 }
-
+/*
 header:hover {
   font-size: 50px;
 
   #hh1 {
-    color: red;
-  }
+    color: red;}
 
   transition-duration: 2s;
   transition-timing-function: linear;
 }
+*/
 
-img#stil {
+#hh1{
+transition: font-size 0.8s ease;}
+
+#hh1:hover{
+font-size:60px;
+color: red;}
+
+img#slogo {
   width: 50px;
-  height: 37px;
+  height: 53px;
   float: left;
   border-radius: 50%;
+  transition: transform 0.8s ease;
+  transform-origin:top left;
+}
+
+/*
+img#slogo:hover {
+  width: 350px;
+  height: 350px;
+
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+*/
+
+img#slogo:hover {
+  transform: scale(8); /* grows visually, not physically */
 }
 
 img#stir {
   width: 50px;
-  height: 37px;
+  height: 53px;
   float: right;
   border-radius: 50%;
 }
@@ -85,7 +110,7 @@ main {
 }
 
 .mhead {
-  display: inline-block;
+  
 }
 
 #ldt {
@@ -100,7 +125,8 @@ ul#a1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  font-size:14;
+ 
 }
 
 #ldc {
@@ -159,7 +185,7 @@ img#h3 {
 }
 
 h3.rdl {
-  display: inline-block;
+  display: block;
   color: tomato;
 }
 
@@ -167,16 +193,20 @@ li {
   list-style-type: none;
   width: 100%;
 }
-
+/*
 a:hover {
-  background-color: darkgreen;
+  background-color: blue;
   border-radius: 10%;
   width: 40%;
   text-align: center;
   font-size: 24px;
-  transition-duration: 1s;
+  transition-duration: 2s;
   transition-timing-function: linear;
   transform: translate(-35px);
+}*/
+
+a#sc{
+  hoover:
 }
 
 a#fr1 {
