@@ -1,30 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+* { margin: 0; padding: 0; }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
+html, body {  height: 100%;   width: 100%;}
 
 img {
   width: 100%;
   height: auto;
-  object-fit: cover;
-}
+  object-fit: cover; }
 
 span {
   width: 100%;
-  overflow-y: auto;
-}
+  overflow-y: auto;}
 
 ul,
 li {
   width: 100%;
-  font-weight: bolder;
-}
+  font-weight: bolder;}
 
 a {
   color: white;
@@ -33,8 +23,7 @@ a {
   padding: 3px;
   margin: 3px;
   display: inline-block;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 header {
   padding: 0;
@@ -47,31 +36,29 @@ header {
   height: 6%;
   width: 100%;
 }
-/*
-header:hover {
-  font-size: 50px;
 
-  #hh1 {
-    color: red;}
-
+#hh1:hover{
+font-size:60px;
+color: red;
   transition-duration: 2s;
-  transition-timing-function: linear;
-}
-*/
+  transition-timing-function: linear;}
 
+/*
 #hh1{
 transition: font-size 0.8s ease;}
 
 #hh1:hover{
 font-size:60px;
 color: red;}
+*/
 
 img#slogo {
   width: 50px;
   height: 53px;
   float: left;
   border-radius: 50%;
-  transition: transform 0.8s ease;
+  transition-duration: 3s;
+  transition-timing-function: linear; 
   transform-origin:top left;
 }
 
@@ -96,8 +83,14 @@ img#stir {
   border-radius: 50%;
 }
 
+iframe {
+border: none;
+height: 100%;
+width: 100%;
+}
+
 main {
-  height: 88%;
+  height: 84%;
   width: 100%;
 }
 
@@ -109,25 +102,25 @@ main {
   text-align: center;
 }
 
-.mhead {
-  
-}
+.mhead {}
 
+/*
 #ldt {
   height: 60%;
   display: block;
   background-image: url("../images/sr4.jpg");
   background-size: cover;
-}
+}*/
 
+/*
 ul#a1 {
   list-style-type: none;
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-size:14;
- 
+  font-size:14; 
 }
+*/
 
 #ldc {
   height: 30%;
@@ -251,4 +244,36 @@ p#p1 {
 
 p#p2 {
   border-style: double;
+}
+
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:4%;
+  background-color: tomato;
+  }
+
+a#tn{
+font-size:15px;
+}
+/* Style links in topnav */
+ul.topnav li a#tn {
+  display: block;
+  color: #f1f1f1;
+  padding: none;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav li a:hover
+{
+  background-color: #dddddd;
+  color: black;
 }
