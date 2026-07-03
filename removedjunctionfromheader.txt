@@ -1,0 +1,13 @@
+<script>
+    function Display() {
+      var x = document.getElementsByClassName("rdl");
+      for (var i = 0; i < x.length; i++) {
+        x[i].style.display = "inline";
+      }
+    }
+    function DW() {
+      var x = document.getElementById("Abro");
+      document.write(x.innerHTML);
+      document.getElementById("bd").innerHTML = document.getElementById("a1").getName;
+    }
+  </script>

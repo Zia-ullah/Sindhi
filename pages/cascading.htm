@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cascading Nested Dropdown Menu</title>
+  <style>
+    /* 1. Main Navigation Bar Styles */
+    nav {
+      background-color: #333;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Reset margins and paddings */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Top-level menu alignment */
+    nav > ul {
+      display: flex;
+    }
+
+    /* 2. Menu Item Shared Layout */
+    nav li {
+      position: relative; /* Essential anchor point for child submenus */
+    }
+
+    nav li a {
+      display: block;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    nav li a:hover {
+      background-color: #555;
+    }
+
+    /* 3. Submenu Hiding Rules */
+    nav ul ul {
+      display: none; /* Hide submenus by default */
+      position: absolute;
+      background-color: #444;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    }
+
+    /* First-level submenu: drops straight down */
+    nav > ul > li > ul {
+      top: 100%;
+      left: 0;
+    }
+
+    /* Deep nested submenus: fly out horizontally to the right */
+    nav ul ul ul {
+      top: 0;
+      left: 100%;
+    }
+
+    /* 4. Cascading Trigger Logic */
+    /* Target only the direct child ul of the hovered li */
+    nav li:hover > ul {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      
+      <!-- First Dropdown Parent -->
+      <li>
+        <a href="#">Services ▾</a>
+        <ul>
+          <li><a href="#">Web Design</a></li>
+          
+          <!-- Second Dropdown Parent (Nested) -->
+          <li>
+            <a href="#">Marketing ▸</a>
+            <ul>
+              <li><a href="#">SEO Optimization</a></li>
+              <li><a href="#">Social Media</a></li>
+              
+              <!-- Third Dropdown Parent (Deep Nested) -->
+              <li>
+                <a href="#">Paid Ads ▸</a>
+                <ul>
+                  <li><a href="#">Google Ads</a></li>
+                  <li><a href="#">Meta Ads</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Consulting</a></li>
+        </ul>
+      </li>
+      
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>

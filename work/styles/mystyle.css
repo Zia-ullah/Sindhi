@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+span {
+  width: 100%;
+  overflow-y: auto;
+}
+
+ul,
+li {
+  width: 100%;
+  font-weight: bolder;
+}
+
+a {
+  color: white;
+  font-family: Arial;
+  padding: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+header {
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/Ajrak1.jpg");
+  background-size: contain;
+  text-align: center;
+  color: white;
+  position: static;
+  height: 6%;
+  width: 100%;
+}
+
+header:hover {
+  font-size: 50px;
+
+  #hh1 {
+    color: red;
+  }
+
+  transition-duration: 2s;
+  transition-timing-function: linear;
+}
+
+img#stil {
+  width: 50px;
+  height: 37px;
+  float: left;
+  border-radius: 50%;
+}
+
+img#stir {
+  width: 50px;
+  height: 37px;
+  float: right;
+  border-radius: 50%;
+}
+
+main {
+  height: 88%;
+  width: 100%;
+}
+
+.ldiv {
+  height: 100%;
+  width: 12%;
+  padding-left: 2px;
+  float: left;
+  text-align: center;
+}
+
+.mhead {
+  display: inline-block;
+}
+
+#ldt {
+  height: 60%;
+  display: block;
+  background-image: url("../images/sr4.jpg");
+  background-size: cover;
+}
+
+ul#a1 {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#ldc {
+  height: 30%;
+  display: block;
+  background-image: url("../images/sr1.jpg");
+  background-size: cover;
+}
+
+.mdiv {
+  height: 100%;
+  width: 72%;
+  float: left;
+}
+
+span#mdt {
+  height: 88%;
+
+  iframe {
+    height: 94%;
+    width: 100%;
+    padding: 2px;
+    border: none;
+  }
+}
+
+.mdh2 {
+  display: block;
+  text-align: center;
+}
+
+.rdiv {
+  height: 100%;
+  display: block;
+  width: 15%;
+  float: left;
+  text-align: center;
+}
+
+#rdt {
+  height: 94%;
+  display: block;
+}
+
+footer {
+  position: static;
+  text-align: center;
+  color: red;
+  height: 5%;
+  width: 100%;
+}
+
+img#h3 {
+  width: 50px;
+  height: 50px;
+}
+
+h3.rdl {
+  display: inline-block;
+  color: tomato;
+}
+
+li {
+  list-style-type: none;
+  width: 100%;
+}
+
+a:hover {
+  background-color: darkgreen;
+  border-radius: 10%;
+  width: 40%;
+  text-align: center;
+  font-size: 24px;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transform: translate(-35px);
+}
+
+a#fr1 {
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a#sr2 {
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a#tr3 {
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a#fr4 {
+  background-color: purple;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+p#p1 {
+  border-style: dotted;
+}
+
+p#p2 {
+  border-style: double;
+}
