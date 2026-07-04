@@ -2,13 +2,156 @@
 
 html, body {  height: 100%;   width: 100%;}
 
+header {
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/Ajrak1.jpg");
+  background-size: contain;
+  text-align: center;
+  color: white;
+  position: static;
+  height: 6%;
+  width: 100%;}
+
 img {
   width: 100%;
   height: auto;
   object-fit: cover; }
 
+img#slogo {
+  width: 50px;
+  height: 53px;
+  float: left;
+  border-radius: 50%;
+  transition-duration: 3s;
+  transition-timing-function: linear; 
+  transform-origin:top left;}
+
+img#slogo:hover {
+  transform: scale(8);}
+
+#hh1:hover{
+  font-size:60px;
+  color: red;
+  transition-duration: 2s;
+  transition-timing-function: linear;}
+
+img#stir {
+  width: 50px;
+  height: 53px;
+  float: right;
+  border-radius: 50%;}
+
+ul.tnav1 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding:0;
+  width:100%;
+  height:4%;
+  background-color:tomato;  }
+
+a#tn{
+font-size:20px;}
+
+ul.tnav1 li a#tn {
+  display: block;
+  color: #f1f1f1;
+  padding: none;
+  text-align: center;
+  text-decoration: none;}
+
+ul.tnav2 {
+  display: inline-flex;
+  justify-content:space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  width:100%;
+  height:4%;
+  font-size: 24px;
+  text-align: center;  
+  background-color:dodgerblue;}
+
+.tnli{
+  flex: 75% 0 0;
+}
+
+.ddm{
+  position:relative;
+}
+.ddc{
+  display: none;
+  position: absolute;
+  background-color: khaki;
+}
+
+.ddm:hover ddc{
+  display: block;
+  background-color: green;
+}
+
+main {
+  height: 80%;
+  width: 100%;}
+
+.ldiv {
+  overflow-y: hidden;
+  height: 100%;
+  display:block;
+  width: 12%;
+  float: left;
+  padding:0;
+  margin:0;
+  text-align:center;}
+
+iframe {
+  border: none;
+  height: 100%;
+  padding: 0;
+  margin:0;
+  width: 100%;}
+
+.mdiv {
+  height: 100%;
+  width: 76%;
+  float: left;}
+
+span#mdt {
+  height: 88%;}
+
+.rdiv {
+  overflow-y: scroll;
+  height: 100%;
+  display: block;
+  width: 12%;
+  float: left;
+  text-align: center;}
+
+#rdt {
+  height: 94%;
+  display: block;}
+
+h3.rdl {
+  display: block;
+  color: tomato;}
+
+footer {
+  position: static;
+  text-align: center;
+  color: red;
+  height: 5%;
+  width: 100%;}
+
+li {
+  list-style-type: none;
+  width: 100%;}
+
+/*
 span {
   width: 100%;}
+
 
 a {
   color: green;
@@ -23,72 +166,14 @@ ul, li {
   width: 100%;
   font-weight: bolder;}
 
-header {
-  padding: 0;
-  margin: 0;
-  background-image: url("../images/Ajrak1.jpg");
-  background-size: contain;
-  text-align: center;
-  color: white;
-  position: static;
-  height: 6%;
-  width: 100%;}
 
-#hh1:hover{
-  font-size:60px;
-  color: red;
-  transition-duration: 2s;
-  transition-timing-function: linear;}
-
-img#slogo {
-  width: 50px;
-  height: 53px;
-  float: left;
-  border-radius: 50%;
-  transition-duration: 3s;
-  transition-timing-function: linear; 
-  transform-origin:top left;}
-
-img#slogo:hover {
-  transform: scale(8);}
-
-img#stir {
-  width: 50px;
-  height: 53px;
-  float: right;
-  border-radius: 50%;}
-
-main {
-  height: 84%;
-  width: 100%;}
-
-.ldiv {
-  overflow-y: hidden;
-  height: 100%;
-  display:block;
-  width: 12%;
-  float: left;
-  text-align:center;}
 
 .dh3{
   display:flex;
   background-color:dodgerblue;
 }
 
-iframe {
-  border: none;
-  height: 96%;
-  padding: 0;
-  margin:0;
-  width: 100%;}
 
-.mdiv {
-  height: 100%;
-  width: 76%;
-  float: left;}
-
-span#mdt {
-  height: 88%;}
 
 .mdh2 {
   display: block;
@@ -99,37 +184,16 @@ span#mdt {
   text-align: center;
   float:left;}
 
-.rdiv {
-  overflow-y: auto;
-  height: 100%;
-  display: block;
-  width: 12%;
-  float: left;
-  text-align: center;}
 
-#rdt {
-  height: 94%;
-  display: block;}
-
-footer {
-  position: static;
-  text-align: center;
-  color: red;
-  height: 5%;
-  width: 100%;}
 
 img#h3 {
   width: 50px;
   height: 50px;
 }
 
-h3.rdl {
-  display: block;
-  color: tomato;}
 
-li {
-  list-style-type: none;
-  width: 100%;}
+
+
 
 a#sc{
   hoover:}
@@ -170,24 +234,4 @@ p#p1 {
   border-style: dotted;}
 
 p#p2 {
-  border-style: double;}
-
-ul.topnav {
-  display: inline-flex;
-  justify-content: center;
-  display-direction:row;
-   list-style-type: none;
-  margin: 0;
-  padding:0;
-  width:100%;
-  height:4%;
-  background-color:tomato;  }
-
-a#tn{
-font-size:20px;}
-
-ul.topnav li a#tn {
-  display: block;
-  color: #f1f1f1;
-  padding: none;
-  text-decoration: none;}
+  border-style: double;}*/

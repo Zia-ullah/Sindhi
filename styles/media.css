@@ -1,4 +1,4 @@
-@media (max-width: 400px) {
+@media (min-width: 389px) and (max-width: 431px) {
     a#fr1 {
         background-color: red;
     }
@@ -12,9 +12,13 @@
         width: 30px;
         height: 30px;
     }
+    a {
+        font-size:12px;
+    }
+    
 }
-
-@media (min-width: 401px) and (max-width:500px) {
+/*
+@media (min-width: 430px) and (max-width:530px) {
     a#sr2 {
         background-color: green
     }
@@ -25,7 +29,7 @@
     }
 }
 
-@media (min-width: 501px) and (max-width:600px) {
+@media (min-width: 530px) and (max-width:630px) {
     a#tr3 {
         background-color: yellow;
     }
@@ -45,4 +49,4 @@
     h3 {
         font-size: 14px;
     }
-}
+}*/
