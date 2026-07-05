@@ -1,6 +1,9 @@
 * { margin: 0; padding: 0;}
 
 html, body {  height: 100%;   width: 100%;}
+p{
+  background-color: khaki;
+}
 
 header {
   padding: 0;
@@ -85,10 +88,7 @@ ul.tnav2 {
 .ddc{
  display: none;
   position: absolute;
-  background-color:dodgerblue;
-  min-width: 160px;
- 
-  z-index: 1;
+  background-color:tomato; 
 }
 
 .ddc a {
@@ -102,6 +102,10 @@ ul.tnav2 {
 
 .ddm:hover .ddc {display: block;}
 
+.ifp{
+  padding:2;
+  margin:2;
+}
 main {
   height: 80%;
   width: 100%;}
@@ -127,6 +131,11 @@ iframe {
   height: 100%;
   width: 76%;
   float: left;}
+
+p{
+  padding:5;
+  margin:5;
+}
 
 span#mdt {
   height: 88%;}
