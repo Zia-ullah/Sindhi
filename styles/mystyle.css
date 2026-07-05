@@ -1,9 +1,6 @@
 * { margin: 0; padding: 0;}
 
 html, body {  height: 100%;   width: 100%;}
-p{
-  background-color: khaki;
-}
 
 header {
   padding: 0;
@@ -61,6 +58,7 @@ ul.tnav1 li a#tn {
   display: block;
   color: #f1f1f1;
   padding: none;
+  font-size: 24px;
   text-align: center;
   text-decoration: none;}
 
@@ -78,34 +76,29 @@ ul.tnav2 {
   background-color:dodgerblue;}
 
 .tnli{
-  flex: 75% 0 0;
-}
+  flex: 75% 0 0;}
 
 .ddm{
   position:relative;
-  display: inline-block;  
-}
+  display: inline-block;}
+
 .ddc{
- display: none;
+  display: none;
   position: absolute;
-  background-color:tomato; 
-}
+  float: right;
+  text-align: right;
+  background-color:tomato;}
 
 .ddc a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
-}
+  display: block;}
 
 .ddc a:hover {background-color: #ddd;}
 
 .ddm:hover .ddc {display: block;}
 
-.ifp{
-  padding:2;
-  margin:2;
-}
 main {
   height: 80%;
   width: 100%;}
@@ -123,19 +116,12 @@ main {
 iframe {
   border: none;
   height: 100%;
-  padding: 0;
-  margin:0;
-  width: 100%;}
+  width: 98%;}
 
 .mdiv {
   height: 100%;
   width: 76%;
   float: left;}
-
-p{
-  padding:5;
-  margin:5;
-}
 
 span#mdt {
   height: 88%;}
@@ -168,10 +154,6 @@ li {
   width: 100%;}
 
 /*
-span {
-  width: 100%;}
-
-
 a {
   color: green;
   font-family: Arial;

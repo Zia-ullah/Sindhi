@@ -1,11 +1,11 @@
-@media (min-width: 389px) and (max-width: 431px) {
+ /*@media (width <= 390px){
     a#fr1 {
         background-color: red;
     }
 
     h2,
     h3 {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     img {
@@ -13,11 +13,16 @@
         height: 30px;
     }
     a {
-        font-size:12px;
+        font-size:16px;
     }
-    
+    li {
+        font-size:12px;
+    }    
 }
-/*
+
+
+@media (min-width: 389px) and (max-width: 431px)
+
 @media (min-width: 430px) and (max-width:530px) {
     a#sr2 {
         background-color: green
